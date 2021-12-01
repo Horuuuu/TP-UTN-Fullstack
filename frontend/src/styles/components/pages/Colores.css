@@ -1,0 +1,37 @@
+/*Colores*/
+.color {
+  border: 1px solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+}
+.color .info {
+  width: 75%;
+}
+.color .info h4 {
+  color: black;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  border-bottom: 1px solid black;
+}
+.color .info p {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+.color:nth-child(even) img {
+  float: right;
+  margin: 0 0 0 1em;
+}
+.color:nth-child(even) .info {
+  float: left;
+}
+.color:nth-child(odd) img {
+  float: left;
+  margin: 0 1em 0 0;
+}
+.color:nth-child(odd) .info {
+  float: right;
+}

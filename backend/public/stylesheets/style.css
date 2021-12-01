@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+img {
+  border-radius: 45%;
+}
+header {
+  background-color: grey;
+  padding: 1em 0;
+}
+header h1 {
+  color: azure;
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 100;
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+}
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+footer {
+  background-color: gray;
+  clear: both;
+  color: white;
+  padding: 3em 0;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.tamaño:first-child {
+  margin-left: 0;
+}

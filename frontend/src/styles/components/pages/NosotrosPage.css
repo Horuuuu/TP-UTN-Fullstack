@@ -1,0 +1,44 @@
+/*Variedades*/
+.historia p {
+  font-size: 1em;
+}
+.variedades {
+  overflow: hidden;
+}
+.tamaño {
+  /*border: 1px solid gray;*/
+  border-radius: 0.25em;
+  /*float: left;*/
+  margin-left: 2.25%;
+  box-sizing: border-box;
+}
+.tamaño {
+  text-align: center;
+}
+.tamaño img {
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0, 5);
+}
+.tamaño h5,
+.tamaño h6 {
+  text-align: center;
+  font-weight: normal;
+  color: black;
+  margin: 0;
+}
+.tamaño h5 {
+  font-size: 1em;
+}
+.tamaño h6 {
+  font-size: 0.8em;
+  font-style: italic;
+}
+.tamaño p {
+  font-size: 0.9em;
+  color: black;
+  margin: 0 1em 1em;
+}
+
+.tamaño:first-child {
+  margin-left: 0;
+}

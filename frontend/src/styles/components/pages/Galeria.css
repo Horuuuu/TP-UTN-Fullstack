@@ -1,0 +1,18 @@
+.contenedor-galeria {
+  display: flex;
+  width: 100%;
+
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  filter: brightness(70%);
+}
+.galeria__img {
+  width: 270px;
+  height: 230px;
+  margin-bottom: 15px;
+  object-fit: fill;
+  border-radius: 5px;
+  /*filter: brightness(70%);
+    transition: transform 2s;*/
+}
